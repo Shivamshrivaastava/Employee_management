@@ -93,11 +93,11 @@ http://localhost:5103/swagger/index.html
 
 ### Authentication
 
-- **POST** `/api/auth/login` - Authenticate and get JWT token
+- **POST** `/api/Auth/login` - Authenticate and get JWT token
 
 ### Employee Management
 
-- **GET** `/api/employees` - Get all employees
-- **POST** `/api/employees` - Create a new employee
-- **PUT** `/api/employees/{id}` - Update an employee
-- **DELETE** `/api/employees/{id}` - Delete an employee
+- **GET** `/api/Employees` - Get all Employees
+- **POST** `/api/Employees` - Create a new employee
+- **PUT** `/api/Employees/{id}` - Update an employee
+- **DELETE** `/api/Employees/{id}` - Delete an employee
