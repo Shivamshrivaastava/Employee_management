@@ -20,7 +20,9 @@ builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 
 // Configure JWT Authentication
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+#pragma warning disable CS8604 // Possible null reference argument.
 var key = Encoding.ASCII.GetBytes(jwtSettings["SecretKey"]);
+#pragma warning restore CS8604 // Possible null reference argument.
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>

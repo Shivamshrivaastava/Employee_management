@@ -182,3 +182,4 @@ D:\Employee\EmployeeManagement\obj\Debug\net9.0\refint\EmployeeManagement.dll
 D:\Employee\EmployeeManagement\obj\Debug\net9.0\EmployeeManagement.pdb
 D:\Employee\EmployeeManagement\obj\Debug\net9.0\EmployeeManagement.genruntimeconfig.cache
 D:\Employee\EmployeeManagement\obj\Debug\net9.0\ref\EmployeeManagement.dll
+D:\Employee\EmployeeManagement\obj\Debug\net9.0\EmployeeManagement.sourcelink.json
