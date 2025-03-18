@@ -1,7 +1,5 @@
 using EmployeeManagement.Models;
 using EmployeeManagement.Repositories;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace EmployeeManagement.Services
 {
