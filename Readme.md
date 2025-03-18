@@ -27,9 +27,9 @@ This is a RESTful API built using .NET 9, designed to manage employee data in an
 ```
 EmployeeManagementAPI/
 │-- Controllers/        # API Controllers
-│-- Services/           # Business Logic Layer
-│-- Repositories/       # Data Access Layer
-│-- Models/             # Data Models
+│-- EmployeeServices/           # Business Logic Layer
+│-- EmployeesRepositories/       # Data Access Layer
+│-- EmployeeModels/             # Data Models
 │-- DTOs/               # Data Transfer Objects (optional)
 │-- Data/               # DbContext and Migrations
 │-- Program.cs          # Application Entry Point
